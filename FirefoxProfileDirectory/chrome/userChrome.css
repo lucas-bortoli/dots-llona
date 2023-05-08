@@ -1,0 +1,32 @@
+/**
+ * Copyright (c) 2023 Lucas Vinicius de Bortoli Santos
+ * 
+ * This configuration file gives Firefox an Edge-like appearance.
+ * 
+ * Last edit: 2023-05-08
+ */
+html {
+  /* background: transparent !important; */
+}
+
+#navigator-toolbox {
+  /* background: transparent !important; */
+  /* border: 1px solid #000 !important; */
+}
+
+#TabsToolbar {
+  /* background-color: rgba(0, 0, 0, 0.75) !important; */
+}
+
+#tabbrowser-tabs {
+  transform: translateY(7px);
+  padding-left: 10px !important;
+}
+
+#nav-bar {
+  box-shadow: unset !important;
+}
+
+.tab-background:is([selected]) {
+  box-shadow: unset !important;
+}
